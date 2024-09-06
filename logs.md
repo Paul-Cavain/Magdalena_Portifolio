@@ -1,0 +1,1 @@
+This is age caluculator where a user enter his bith details (day, month and year of birth) then the program calculate his/her current days, month and years of his/her age

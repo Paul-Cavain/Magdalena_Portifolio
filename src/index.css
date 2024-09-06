@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cards {
+    @apply w-full h-auto rounded-md shadow-md bg-white overflow-hidden relative
+}
+
+.badge {
+    @apply bg-orange-500 w-24 rounded-md text-center absolute left-0 top-0 p-1 ml-2 mt-2 text-gray-600 uppercase text-sm space-x-1
+}
