@@ -18,7 +18,7 @@ const Home = () => {
                             <h3 className="uppercase font-black text-2xl md:text-3xl">I`M Magdalena Chubwa</h3>
                         </div>
                         <hr className="w-10 border-rose-600 my-6 border-2" />
-                        <div>
+                        <div className="">
                             <p>In a professional context it often happens that private clients corder a publication to be made.</p>
                         </div>
                         <div className="mt-3 md:mt-8">
@@ -31,12 +31,18 @@ const Home = () => {
                     </div>  
                 </div>
             </section>
+
+            {/* about section */}
             <section id="About" className="mx-4">
                 <About />
             </section>
+
+            {/* service section */}
             <section id="Service" className="pt-24 mx-4">
                 <Service />
             </section>
+
+            {/* contact section */}
             <section id="Contact" className="pt-24 mx-4">
                 <Contact />
             </section>

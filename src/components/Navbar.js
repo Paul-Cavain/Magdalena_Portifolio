@@ -14,7 +14,7 @@ const Navbar = () => {
 
             <div className='flex flex-row justify-between w-full'>
                 <div className='flex flex-row'>
-                    <div className='text-lg uppercase text-start'>
+                    <div className='text-lg md:text-2xl uppercase text-start font-semibold'>
                         <a href='#'>
                             <span>Magdalena chubwa</span>
                         </a>
